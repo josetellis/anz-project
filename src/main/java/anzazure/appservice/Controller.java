@@ -16,6 +16,6 @@ public class Controller
    @GetMapping("/anz/{name}")
    public String getName(@PathVariable String name)
    {
-	   return  "Hello" + name;
+	   return  "Hello" +"  "+ name;
    }
 }
